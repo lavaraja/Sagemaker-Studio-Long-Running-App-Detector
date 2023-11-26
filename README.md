@@ -21,7 +21,7 @@ The current Jupyter plugin for [auto-shutdown](https://github.com/aws-samples/sa
 
 `IAM` roles permissions:
 
-``
+```
 {
 	"Version": "2012-10-17",
 	"Statement": [
@@ -38,7 +38,7 @@ The current Jupyter plugin for [auto-shutdown](https://github.com/aws-samples/sa
 		}
 	]
 }
-``
+```
 
 ## Configuration
 
