@@ -10,7 +10,7 @@ This script is designed to help cloud administrators detect long-running apps in
 
 ## Purpose and Benefits
 
-The current Jupyter plugin for [auto-shutdown](https://github.com/aws-samples/sagemaker-studio-auto-shutdown-extension/blob/main/README.md) does not continue polling for idle apps and shutting them down if the Jupyter server is restarted using the "restart-jupyter-server" command. This script provides an alternative solution to address this limitation and detect if autoshut down is disabled, ensuring that idle apps are still identified and action can be taken as needed.
+The current Jupyter plugin for [auto-shutdown](https://github.com/aws-samples/sagemaker-studio-auto-shutdown-extension/blob/main/README.md) does not continue polling for idle apps and shutting them down if the Jupyter server is restarted using the "restart-jupyter-server" command. This script provides an alternative solution to address to detect long running apps, ensuring that idle apps are still identified and action can be taken as needed. Can be scheduled for all userprofiles in the account or specific domain/userprofile.
 
 
 ## Prerequisites
